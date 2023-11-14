@@ -1,0 +1,9 @@
+OBJETOS:
+
+eS UNA ESTRUCTURA EN LA QUE SE PUEDE guardar información y funcionalidades.
+Usan pares clave-valor.
+
+SINTAXIS:
+- Dot-notation: usamos un punto para acceder a las propiedades.
+- Bracket-notation: la propiedad va entre corchetes y comillas.
+Muchas veces nos puede suceder que necesitemos utilizar una variable externa para guardarla como propiedad en un objeto. Es importante que en esos casos recordemos utilizar Bracket-Notation sin comillas para que funcione correctamente.
