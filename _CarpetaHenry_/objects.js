@@ -43,5 +43,36 @@ var diferenciaDeNotaciones = function(propUno, propDos) {
     comidas[propDos] = ['Hamburguesa', 'Papas Fritas'];
 };
 
-diferenciaDeNotaciones('saludable', 'noSaludable');
-console.log(comidas);
+//diferenciaDeNotaciones('saludable', 'noSaludable');
+//console.log(comidas);
+
+// HAS OWN PROPERTY
+var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
+var tienePropiedad = libro.hasOwnProperty('autor');
+
+//console.log(tienePropiedad);
+
+// KEYS
+var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
+var todasLasPropiedades = Object.keys(libro);
+
+//console.log(todasLasPropiedades);
+
+var mundo = { continentes: 7, paises: 192, oceanos: 5};
+
+// for (let prop in mundo) {
+//     console.log('Esta es la propiedad: ', prop);
+//     console.log('Este es el valor: ', mundo[prop]);
+//  }
+
+ var mascota = {
+    animal: 'Perro',
+    raza: 'Ovejero Alemán',
+    amistoso: true,
+    dueña: 'María López',
+    info: function(){
+        console.log('Mi perro es un ' + this.raza);
+    }
+ };
+
+ mascota.info();
